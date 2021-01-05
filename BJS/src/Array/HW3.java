@@ -16,6 +16,7 @@ public class HW3 {
 		System.out.println("the resultent of all bitwise opration is "+z);
 		}
   
+	@SuppressWarnings("unused")
 	static int semi1(int sem1[])
 	{
 		int total = 0;
@@ -27,6 +28,7 @@ public class HW3 {
 		return total;
 	}
 	
+		@SuppressWarnings("unused")
 		static int semi2(int sem2[])
 	{
 		int total = 0;
@@ -38,7 +40,7 @@ public class HW3 {
 		return total;
 	}
 	
-	static int bitwise(int sem1[], int sem2) 
+	static int bitwise(int sem1[], int sem2[]) 
 	{
 		int z=0;
 		int temp=0;
@@ -46,7 +48,7 @@ public class HW3 {
 		
 		for(int i=0; i<4;i++)
 		{
-			int a = sem1[i] || sem2[i] ;
+			int a = sem1[i] & sem2[i] ;
 		}
 		
 		
