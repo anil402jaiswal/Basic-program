@@ -1,4 +1,4 @@
-package Area;
+package Algorithum;
 
 import java.util.Scanner;
 
