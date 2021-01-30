@@ -9,8 +9,7 @@ public class Avrage {
 	int b = sc.nextInt();
 	int c = sc.nextInt();
 	
-	float avg;
-	avg = (a+b+c)/3;
+	double avg = (double)(a+b+c)/3;
 	
 	System.out.println("Avarage=" +avg);
 	

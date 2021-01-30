@@ -12,7 +12,7 @@ public class HW2 {
 		{
 	
 			int x=brr[0];
-			int total = 0;
+			int total = 0;                                                               
 			int j=0;
 			for(int i=x; i<brr[3]; i++)
 			{
